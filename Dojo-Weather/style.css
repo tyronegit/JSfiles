@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+* {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(98, 231, 248);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0  50px;
+    margin-bottom: 50px;
+}
+
+main {
+    margin: 0 15%;
+}
+
+.navigation {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.city1 {
+    cursor: pointer;
+}
+
+.navigation h1 {
+    margin-right: auto;
+    font-size: 4rem;
+}
+
+.navigation h2 {
+    margin: 0 50px;
+    font-size: 1.7rem;
+}
+
+.city {
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.city h1 {
+    margin-right: auto;
+}
+
+.city label {
+    margin-right: 25px;
+}
+
+.week {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+}
+
+.day {
+    background-color: rgba(219, 218, 218, 0.623);
+    height: 600px;
+    flex: 1;
+    margin: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.day .fas {  /* combining 2 styles together for display*/
+    background: #ffffff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 175px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.range {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.range h1 {
+    margin: 0 10px;
+}
+
+.cookie {
+    background-color: rgb(219, 218, 218);
+    padding: 10px;
+    position: fixed;
+    bottom: 100px;
+    left: 30%;
+    right: 30%;
+    border: 3px solid black;
+    box-shadow: 2.5px 2.5px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.accept {
+    background-color: rgb(98, 231, 248);
+    box-shadow: 2.5px 2.5px black;
+    width: 100px;
+    height: 35px;
+}
+
+.info {
+    margin: 0 10px;
+}

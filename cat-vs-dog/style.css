@@ -1,0 +1,24 @@
+#fav-animal {
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+
+.btn {
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 4px 4px #222;
+}
+
+.btn1 {
+    margin-right: 15px;
+    height: 30px;
+    width: 70px;
+    background-color:goldenrod;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 4px 4px #222;
+}

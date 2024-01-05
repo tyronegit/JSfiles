@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1874a3fe5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <h1>DojoWeather</h1>
+            <h2 class="city1" onclick="pop()">Burbank</h2>
+            <h2 class="city1" onclick="pop()">Chicago</h2>
+            <h2 class="city1" onclick="pop()">Dallas</h2>
+        </div>
+    </header>
+    <main>
+        <div class="city">
+            <h1>San Jose</h1>
+            <label for="temp">show temperature in </label>
+            <select name="temperature" id="temp" onchange="update(this)">
+                <option value="celcius">&#xb0;C</option>
+                <option value="fahrenheit">&#xb0;F</option>
+            </select>
+        </div>
+        <div class="week">
+            <div class="day wednesday">
+                <h1>Today</h1>               
+                <img class="fas" src="some_rain.png" alt="some_rain">
+                <p>some rain</p>
+                <div class="range">
+                    <h1 class="high"><span class="current">23.9</span>&#xb0;</h1>
+                    <h1 class="low"><span class="current">18.3</span>&#xb0;</h1>
+                </div> 
+            </div>
+            <div class="day thursday">
+                <h1>Tommorrow</h1>               
+                <img class="fas" src="some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="range">
+                    <h1 class="high"><span class="current">26.7</span>&#xb0;</h1>
+                    <h1 class="low"><span class="current">18.9</span>&#xb0;</h1>
+                </div> 
+            </div>
+            <div class="day friday">
+                <h1>Friday</h1>             
+                <img class="fas" src="some_clouds.png" alt="some_clouds">
+                <p>some clouds</p>
+                <div class="range">
+                    <h1 class="high"><span class="current">20.6</span>&#xb0;</h1>
+                    <h1 class="low"><span class="current">16.1</span>&#xb0;</h1>
+                </div> 
+            </div>
+            <div class="day saturday">
+                <h1>Saturday</h1>              
+                <img class="fas" src="some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="range">
+                    <h1 class="high"><span class="current">25.6</span>&#xb0;</h1>
+                    <h1 class="low"><span class="current">21.1</span>&#xb0;</h1>
+                </div> 
+            </div>
+        </div>
+        <div class="cookie">            
+            <img class="fas" src="cookie.png" alt="cookie">
+            <div class="info">
+                <h1>Stop! Cookie Time</h1>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads,
+                    to provide social media features and to analyze our traffic.
+                    <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button class="accept" onclick="popup(this)">I Accept</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
